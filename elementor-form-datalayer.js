@@ -31,7 +31,7 @@ jQuery(document).ready(function($) {
             'event': 'form_submit',
             'form_name': formName,
             'form_id': formID,
-            'form_data': formData,  // Campos e valores do formulário
+            'form_data': formData,  // Campos e valores do formulário / Form fields and values
             'form_destination': form.attr('action')
         });
     });
