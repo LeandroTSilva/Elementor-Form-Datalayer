@@ -4,8 +4,9 @@ Este script captura dados de campos de formulários do Elementor e os envia para
 
 ## Instalação
 
-1. Adicione o código do arquivo `form-datalayer.js` no Elementor em **Configurações > Código Personalizado**.
-2. No código, substitua `"URL_DA_PAGINA_DE_CONFIRMACAO"` com a URL de confirmação desejada após a submissão do formulário esta opção é opcional.
+1. Adicione o código do arquivo `elementor-form-datalayer.js` no Elementor em **Configurações > Código Personalizado**.
+2. No código, adicione o id `(formID)` e o nome do formulário `(formName)` (a criação do Id e Nome, você faz direto no Elementor quando estiver criando os campos do formulário).
+3. No código, substitua `"URL_DA_PAGINA_DE_CONFIRMACAO"` com a URL de confirmação desejada após a submissão do formulário esta opção é opcional.
 
 ## Funcionalidades
 
